@@ -23,8 +23,6 @@ jobs:
           kubectl config view
           kubectl cluster-info
           kubectl get nodes
-          kubectl get pods -n kube-system
-          helm version
           kubectl version
       
       - uses: actions/checkout@v2
